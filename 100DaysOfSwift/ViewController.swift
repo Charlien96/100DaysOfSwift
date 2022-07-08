@@ -13,15 +13,19 @@ class ViewController: UIViewController {
     let paul = "Paul McCartney"
     let george = "George Harrison"
     let ringo = "Ringo Starr"
-    let beatles = [john, paul, george, ringo]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        printArray()
+    }
+
+    func printArray() {
+        let beatles = [john, paul, george, ringo]
         print(beatles)
         print(beatles[1])
     }
-
 
 }
 
