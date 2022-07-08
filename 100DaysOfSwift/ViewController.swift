@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     let ringo = "Ringo Starr"
     let colors = Set(["red", "green", "blue"])
     let colors2 = Set(["red", "green", "blue", "red", "blue"])
+    var name = (first: "Taylor", last: "Swift")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
         printArray()
         print(colors)
         print(colors2)
+        print(name.0)
+        print(name.first)
     }
 
     func printArray() {
