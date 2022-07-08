@@ -21,6 +21,10 @@ class ViewController: UIViewController {
     var awesome = true
     var score = 85
     let taylor = "Swift"
+    let album: String = "Reputation"
+    let year: Int = 1989
+    let height: Double = 1.78
+    let taylorRocks: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +39,10 @@ class ViewController: UIViewController {
         print(awesome)
         strInterpolation()
         print(taylor)
+        print(album)
+        print(year)
+        print(height)
+        print(taylorRocks)
     }
 
     func strOverride() {
