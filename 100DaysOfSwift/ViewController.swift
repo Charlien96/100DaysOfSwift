@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         """
     var pi = 3.141
     var awesome = true
+    var score = 85
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +33,7 @@ class ViewController: UIViewController {
         strOverride2()
         print(pi)
         print(awesome)
+        strInterpolation()
     }
 
     func strOverride() {
@@ -47,5 +50,11 @@ class ViewController: UIViewController {
         print(str2)
     }
 
+    func strInterpolation() {
+        var str3 = "Your score was \(score)"
+        var results = "The test results are here \(str3)"
+        print(str3)
+        print(results)
+    }
 }
 
