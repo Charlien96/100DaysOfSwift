@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var pi = 3.141
     var awesome = true
     var score = 85
-    
+    let taylor = "Swift"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         print(pi)
         print(awesome)
         strInterpolation()
+        print(taylor)
     }
 
     func strOverride() {
