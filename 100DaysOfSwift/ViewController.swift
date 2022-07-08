@@ -12,6 +12,13 @@ class ViewController: UIViewController {
     var str = "Hello World"
     var age = 38
     var population = 8_000_000
+    var str2 = """
+        This goes
+        over multiple
+        lines
+        """
+    var pi = 3.141
+    var awesome = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +27,24 @@ class ViewController: UIViewController {
         strOverride()
         print(age)
         print(population)
+        print(str2)
+        strOverride2()
+        print(pi)
+        print(awesome)
     }
 
     func strOverride() {
         str = "Goodbybe"
         print(str)
+    }
+    
+    func strOverride2() {
+        str2 = """
+            This goes \
+            over multiple \
+            lines
+            """
+        print(str2)
     }
 
 }
